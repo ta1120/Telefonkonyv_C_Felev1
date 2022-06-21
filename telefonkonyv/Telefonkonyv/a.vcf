@@ -1,0 +1,24 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Bernadett;Toth
+TEL;CELL;VOICE:06704200844
+ADR;HOME:;;Szabadsag ut 59.;Kerepes;;2144
+EMAIL:tbetti19@gmail.com
+BDAY:20080319
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+ADR;HOME:;;Ret utca 1.;Kistarcsa;;2143
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Adam;Toth
+TEL;CELL;VOICE:06704248964
+TEL;WORK;VOICE:06309229553
+ADR;HOME:;;Szabadsag ut 59.;Kerepes;;2144
+ADR;WORK:;;Muegyetem rakpart 12.;Budapest;;1111
+ORG:NOVA Hibaelharito Kft.;Ugyintezes
+TITLE:Vezeto
+EMAIL:toth.adam1120@gmail.com
+BDAY:19991120
+END:VCARD

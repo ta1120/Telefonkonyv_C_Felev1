@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1575034170 source:r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\karakterkezeles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

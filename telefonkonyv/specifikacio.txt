@@ -1,0 +1,60 @@
+A "Telefonkönyv" nevű program specifikációja
+
+A program funkcionalitása hasonlít egy 
+modern mobiltelefon "Névjegyzék" nevű alkalmazásához,
+viszont parancssoros interfésszel rendelkezik és 
+természetesen csak az adatok kezelésére képes
+(telefon specifikus funkciók, mint a hívás,
+üzenetküldés, stb. nem tartoznak a lehetséges opciók közé).
+
+A tárolható paraméterek:
+-név("vezetéknév keresztnév" formátumban)
+-telefonszámok(mobil,otthoni,munkahelyi)
+-cím(otthoni,munkahelyi "cím város irsz" formátumban)
+-munkahely("cégnév osztály" formátum)
+-beosztás
+-email cím
+-születésnap("ééééhhnn" formátumban)
+
+Egy adott személyhez rendelt adatokat tárol el, képes ezeket 
+módosítani, törölni, vagy keresni közöttük. A program nem dolgozik ékezetes
+karakterekkel, ahol ilyen mezőt talál, azt figyelmen kívül hagyja.
+(Ha a névben talál ilyet, semmilyen adat nem kerül eltárolásra a személyről) 
+Meglévő adatbázishoz új bejegyzés adható. Nem szükséges minden személyhez
+az összes eltárolható paraméter megadása, az egyetlen kötelező mező a név. 
+A program képes egy adott adatsort billentyűzetről, vagy fájlból 
+(vCard fájlok és CSV fájlok) beolvasni, eltárolni és exportálni akár táblázat 
+jellegű formátumban(.csv), vagy szabványos vCard 2.1 formátumban(.vcf).
+A beolvasott adatbázisban lehet egy kiválasztott paraméter alapján keresni.
+
+A program szöveges menüt használ, amiben az egyes menüpontok kiválasztása
+az adott menüpont sorszámának begépelésével lehetséges.
+
+A következő menüpontokat tartalmazza a program:
+
+-Új adatbázis (a program megkérdezi szeretnénk e menteni a jelenlegit
+ha van ilyen, akkor fájlnevet kér)
+-->Beolvasás fájlból (a program fájlnevet kér (.csv vagy .vcf formátum))
+-->Üres adatbázis létrehozása 
+
+-Listázás (megjeleníti az adott adatbázisban eltárolt neveket)
+
+-Keresés (a program először a keresendő paraméter típusát kérdezi,
+aztán a keresendő kifejezést,a találat tárolt paramétereit kilistázza.
+Névkeresésnél a * kiegészítő karakter használatával névrészlet megadása is elegendő.
+Ilyen esetben a program kilistázza az összes megfelelő találatot, sorszámozva. A 
+kiválasztott név sorszámát megadva kilistázza a tárolt paramétereket.)
+
+-Szerkesztés
+-->Új bejegyzés 
+-->Módosítás (Keresés funkciót felhasználva megkeresi a kiválasztott személyt, a
+felhasználótól megkérdezi,hogy melyik paramétert szeretné módosítani, a kiválasztottnak
+új értéket ad. Ezután megkérdezi újból, hogy mit szeretne módosítani, ameddig az nem lesz
+a válasz, hogy semmit.)
+-->Törlés (Keresés funkció segítségével megkeres egy bejegyzést, és jóváhagyás után törli azt.)
+
+-Mentés (fájlnevet kér (.csv formátum))
+
+-Exportálás (vCard fájlba, fájlnevet kér)
+
+A program indulásakor nincs aktív adatbázis, valamint kilépéskor nem ment automatikusan.

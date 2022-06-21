@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1576253487 source:r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"adatkezeles.h"
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	"fajlkezeles.h"
+	"felulet.h"
+
+1573668476 r:\bme-vik\programozas alapok 1\debugmalloc.h
+	<stdbool.h>
+	"debugmalloc-impl.h"
+
+1573668447 r:\bme-vik\programozas alapok 1\debugmalloc-impl.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1575049499 r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\adatkezeles.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	"fajlkezeles.h"
+	"felulet.h"
+
+1576253324 source:r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\adatkezeles.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"adatkezeles.h"
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	"fajlkezeles.h"
+	"felulet.h"
+
+1573668476 r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\debugmalloc.h
+	<stdbool.h>
+	"debugmalloc-impl.h"
+
+1573668447 r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\debugmalloc-impl.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1575048908 r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\fajlkezeles.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	<string.h>
+	"adatkezeles.h"
+	"felulet.h"
+
+1575125760 source:r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\felulet.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	<string.h>
+	"adatkezeles.h"
+	"fajlkezeles.h"
+	"felulet.h"
+
+1575125687 source:r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\fajlkezeles.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	"adatkezeles.h"
+	"fajlkezeles.h"
+	"felulet.h"
+
+1575048911 r:\bme-vik\programozas alapok 1\nhf1\telefonkonyv\telefonkonyv\felulet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"debugmalloc.h"
+	"debugmalloc-impl.h"
+	<string.h>
+	"adatkezeles.h"
+	"fajlkezeles.h"
+
