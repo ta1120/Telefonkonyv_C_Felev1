@@ -1,1 +1,1 @@
-"# Telefonkonyv_C_Felev1" 
+"Telefonkönyv alkalmazás VCF Import/Export funkcióval C nyelven" 
